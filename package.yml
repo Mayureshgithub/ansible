@@ -1,0 +1,12 @@
+- hosts: dev
+  gather_facts: no
+  become: true
+  tasks:
+  - name: install all packages
+    yum:
+      name: ["git" , "httpd"]
+      state: absent
+      
+
+
+

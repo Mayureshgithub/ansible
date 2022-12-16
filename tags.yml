@@ -1,0 +1,16 @@
+- hosts:
+  become: true
+  tasks:
+  - name: httpd
+  tags:
+    - firstt
+    - second
+  yum:
+     name: httpd
+     state: present
+  - name: copy
+  tags:
+    - third
+  copy:
+     src: index.html
+     dest: /opt/index.html

@@ -1,0 +1,467 @@
+    1  sudo yum install python3 -y
+    2  python -version
+    3  python3 -version
+    4  python3 --version
+    5  python --version
+    6   sudo alternatives --set python /usr/bin/python3
+    7  python --version
+    8  sudo mkdir -p /etc/ansible
+    9  https://dl.fedoraproject.org/pub/epel/epel-release-latest-8noarch.rpm -y
+   10  sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8noarch.rpm -y
+   11  sudo install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8noarch.rpm -y
+   12  sudo rm -rf  /etc/ansible
+   13  sudo mkdir -p  /opt/ansible
+   14  wget install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8noarch.rpm -y
+   15  wget install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8noarch.rpm
+   16  sudo mkdir /etc/ansible 
+   17  cd mkdir /etc/ansible 
+   18  cd  /etc/ansible 
+   19  vim ansible.cfg
+   20  yum install epel-release
+   21  sudo yum install epel-release
+   22  yum install ansible
+   23  sudo yum install ansible
+   24  sudo amazon-linux-extras install ansible2
+   25  snsible --version
+   26  ansible --version
+   27  sudo chown ansible:ansible R /etc/ansible/ 
+   28  ls
+   29  pwd
+   30  sudo chown ansible:ansible -R /etc/ansible/ 
+   31  vim /etc/ansible//hosts 
+   32   ansible all -m ping
+   33  :q!
+   34  vim /etc/ansible/ansible.cfg 
+   35  vim /etc/ansible/hosts 
+   36   ansible all -m ping
+   37  vim ~/n-vgkey
+   38  vim /etc/ansible/hosts 
+   39  ls
+   40  vim /etc/ansible/hosts 
+   41   ansible all -m ping
+   42  vim /etc/ansible/hosts 
+   43   ansible all -m pls
+   44  ls
+   45  cp n-vgkey /home/ansible/
+   46  ls /home/ansible/
+   47  ls 
+   48   ansible all -m ping
+   49  ls /
+   50  ls
+   51  mv n-vgkey  n-vgkey.pem 
+   52  ls
+   53   ansible all -m ping
+   54  chmod 400 n-vgkey.pem 
+   55   ansible all -m ping
+   56  vim /etc/ansible/hosts 
+   57   ansible all -m ping
+   58  vim /etc/ansible/hosts 
+   59   ansible all -m ping
+   60  vim /etc/ansible/hosts 
+   61   ansible all -m ping
+   62  vim /etc/ansible/hosts 
+   63   ansible all -m ping
+   64  ssh-keygen
+   65  ls
+   66  ls -al
+   67  cd .ssh/
+   68  ls
+   69  ssh-copy-id id_rsa.pub ansible@172.31.64.149
+   70  ssh-copy-id id_rsa.pub 172.31.64.149
+   71  ssh-copy-id ansible@ 172.31.64.149
+   72  ssh-copy-id ansible@172.31.64.149
+   73  cd ..
+   74  ssh-copy-id ansible@172.31.64.149
+   75  vim /etc/ansible/hosts 
+   76  ls -al
+   77  vim /etc/ansible/hosts 
+   78  ssh-copy-id ansible@172.31.64.149
+   79  ssh-keygen
+   80  ssh-copy-id ansible@172.31.64.149
+   81  cd .ssh/
+   82  ls
+   83  cat known_hosts 
+   84  ssh-copy-id ansible@172.31.64.149
+   85  ls -l
+   86  cd ..
+   87  rm -rf .ssh/
+   88  ls
+   89  ls -al
+   90  ssh-keygen
+   91  ls -l .ssh/
+   92  ssh-copy-id ansible@
+   93  ssh-copy-id ansible@172.31.64.149
+   94  sudo ssh-copy-id ansible@172.31.64.149
+   95  cd .ssh/
+   96  sudo ssh-copy-id ansible@172.31.64.149
+   97  ssh-copy-id ansible@172.31.64.149
+   98  cd ..
+   99  ls
+  100  rm -rf n-vgkey.pem 
+  101  ls
+  102  ls -al
+  103  cd .ssh/
+  104  ls
+  105  ssh-copy-id ansible@172.31.64.149
+  106  cd ..
+  107  ssh-copy-id ansible@172.31.64.149
+  108  service restart sshd
+  109  systemctl restart sshd
+  110  systemctl restart sshd.service
+  111  vim /etc/ansible/hosts 
+  112  vim /etc/ssh/sshd_config 
+  113  sudo vim /etc/ssh/sshd_config 
+  114  ssh-copy-id ansible@172.31.64.149
+  115  sudo vim /etc/ssh/sshd_config 
+  116  ssh-copy-id ansible@172.31.64.149
+  117  ls -al
+  118  cd .sh
+  119  cd .ssh/
+  120  ls-al
+  121  ls -l
+  122  vim /etc/ansible/ansible.cfg 
+  123  vim /etc/ssh/sshd_config 
+  124  exit
+  125  ssh-copy-id ansible@172.31.64.149
+  126  sudo vim /etc/ssh/sshd_config 
+  127  sudo vim /etc/ansible/hosts 
+  128  ls
+  129  ls -al
+  130  cd .ssh
+  131  ls
+  132  ssh-copy-id 172-31-64-149 
+  133  ssh-copy-id@172-31-64-149 
+  134  ssh-copy-id @172-31-64-149 
+  135  ssh-copy-id 172-31-64-149 
+  136  ssh-copy-id 172.31.64.149 
+  137  ls -al
+  138  chmod 400 id_rsa\
+  139  chmod 400 id_rsa
+  140  ssh-copy-id 172.31.64.149 
+  141  ls
+  142  cd .
+  143  cd
+  144  pwd
+  145  sudo -i
+  146  pwd
+  147  ls -al
+  148  cd .ssh/
+  149  ls
+  150  cat known_hosts 
+  151  ls -al
+  152  ssh-copy-id ansible@172.31.64.149
+  153  xs ..
+  154  cd ..
+  155  ssh-copy-id ansible@172.31.64.149
+  156  vim /etc/ssh/sshd_config
+  157  sudo vim /etc/ssh/sshd_config
+  158  sudo systemctl restart sshd.service
+  159  ssh-copy-id ansible@172.31.64.149
+  160  sudo vim /etc/ssh/sshd_config
+  161  sudo systemctl restart sshd.service
+  162  ssh-copy-id ansible@172.31.64.149
+  163  ls -l /etc/ansible/
+  164  sudo vim /etc/ssh/sshd_config 
+  165  ls -al
+  166  cd .ssh
+  167  ls -al
+  168  chmod 777 id_rsa.pub
+  169  ssh-copy-id ansible@172.31.64.149
+  170  sudo ssh-copy-id ansible@172.31.64.149
+  171  sudo ssh-copy-id  ansible@172.31.64.149
+  172  sudo ssh-copy-id ansible@172.31.64.149
+  173   ssh-copy-id ansible@172.31.64.149
+  174  ssh 172.31.64.149
+  175  ssh 100.24.210.91
+  176  ls
+  177  pwd
+  178  su - ansible
+  179  sudo -i
+  180  ssh 
+  181  ssh 172.31.64.149
+  182  exit
+  183  vim /etc/ansible/hosts 
+  184  ssh 172.31.28.184
+  185  ssh-copy-id ansible@172.31.28.184
+  186  ls pal
+  187  ls -al
+  188  cd .sh
+  189  cd .ssh/sh
+  190  cd .ssh/
+  191  ls
+  192  ls -al
+  193  chmod 400 id_rsa.pub 
+  194  ssh-copy-id ansible@172.31.28.184
+  195  vim /etc/ansible/hosts 
+  196  ls -al /etc/ansible/hosts 
+  197  vim /etc/ansible/hosts 
+  198  vim /etc/sudoers
+  199  sudo vim /etc/sudoers
+  200  ssh-copy-id ansible@172.31.28.184
+  201  chmod 700 .ssh
+  202  cd ..
+  203  chmod 700 .ssh/
+  204  ssh-copy-id ansible@172.31.28.184
+  205  vim /etc/ansible/hosts 
+  206  ssh-copy-id ansible@172.31.28.184
+  207  sudo vim /etc/sudoers
+  208  ssh-copy-id ansible@172.31.28.184
+  209  ls -al
+  210  exit
+  211  ssh-copy-id 54.152.239.15
+  212  vim /etc/hosts
+  213  vim /etc/ansible/hosts 
+  214  vim /etc/ansible/ansible.cfg 
+  215  ssh-copy-id 54.152.239.15
+  216  ssh-copy-id ansible@54.152.239.15
+  217  history
+  218  ls history >> cat his
+  219  ls history || cat his
+  220  history || cat his
+  221  ls
+  222  cat
+  223  ls
+  224  cat cat
+  225  history >> cat touch
+  226  history >> cat history
+  227  ls
+  228  history >>  history
+  229  ls
+  230  cat history 
+  231  ssh ed: "/home/ansible/.ssh/id_rsa.pub"
+  232  ssh 172.31.28.184
+  233  exit
+  234  ssh 172.31.28.184
+  235  ansible all -m ping
+  236  ansible-doc-l
+  237  ansible-doc -l
+  238  ansible-doc yum
+  239  :q
+  240  ansible-doc -l | grep "user"
+  241  ansible all -m yum -a "name=httpd "
+  242  ansible all -m yum -a "name=httpd"
+  243  vim /etc/hosts
+  244  vim /etc/ansible/hosts/
+  245  vim /etc/ansible/hosts 
+  246  ansible all -m yum -a "name=httpd"
+  247  ansible all -b -m yum -a "name=httpd"
+  248  ls
+  249  vim index.html
+  250  ansible all -b -m copy -a "src=index.html  dest=/var/www/html/index.html"
+  251  ls
+  252  ansible all -b -m service -a "name=httpd"
+  253  ansible all -b -m service -a "name=httpd state=started"
+  254  ansible localhost -b -m yum -a "name=httpd "
+  255  ansible localhost -b -m service -a "name=httpd state=started"
+  256  ansible all -b -m service -a "name=httpd remote_src=true state=started"
+  257  ansible all -b -m package -a "name=git "\
+  258  ansible all -b -m package -a "name=git "
+  259  ls
+  260  ansible all -b -m package -a "name=git "
+  261  ansible-doc -l | grep file
+  262  ansible-doc -l | grep createfile
+  263  ansible-doc -l | grep create_file
+  264  ansible-doc -l | grep create file
+  265  ansible-doc -l | grep  file
+  266  ansible all -m shell -a date
+  267  ansible-adhoc -l command\
+  268  ansible-adhoc -l command
+  269  ansible-adhoc -m command
+  270  ansible-adhoc command
+  271  ansible-adhoc -l module
+  272  ansible-doc -l module
+  273  ansible-doc command
+  274  ansible all -m command -a "creates=this"
+  275  ansible all -m command -a "touch=this"
+  276  ansible all -m command -a creates "name=tt"
+  277  ansible all -m command -a "name=this state=touch"
+  278  ansible all -m command -a "state=touch"
+  279  ansible all -m ping
+  280  ansible all -a "bin/reboot"
+  281  ansible all -a "/bin/reboot"
+  282  ansible all -a "/bin/rebbot"
+  283  ansible all -a "/bin/reboot"
+  284  ansible all -a /bin/reboot
+  285  ansible all -m setup | less
+  286  ansible all -a"/bin/reboot"
+  287  ansible all -a "/bin/reboot"
+  288  ansible all -b -m user -a "name=mayuresh state=present"
+  289  vim /etc/ansible/hosts 
+  290  ansible dev -m user -a "name=mayuresh state=absent"
+  291  ansible dev -b -m user -a "name=mayuresh state=absent"
+  292  ansible-doc package
+  293  wq!
+  294  ansible-doc yum
+  295  ansible dev -m yum -a "name=httpd state=latest"
+  296  ansible-doc yum
+  297  ansible dev -m yum -a "name=httpd-1.8 state=present"
+  298  ansible dev -m yum -a "name=httpd-1.8 state=latest"
+  299  ansible dev -m yum -a "name=httpd-2.4  state=latest"
+  300  ansible dev -m yum -a "name=httpd state=absent"
+  301  ansible devp -b -m yum -a "name=httpd state=absent"
+  302  ansible dev -b -m yum -a "name=httpd state=absent"
+  303  ansible dev -b -a "/dev/bin"
+  304  ansible dev -a "/bin/reboot"
+  305  ansible dev -b -a "/bin/reboot"
+  306  ansible dev -b -a"/bin/reboot"
+  307  ansible dev -m shell -a "uptime"
+  308  rpm -qa | grep httpd
+  309  vim httpd.yml
+  310  ansible playbokk httpd.yml
+  311  ansible playbook httpd.yml
+  312  ansible-playbook httpd.yml
+  313  ls
+  314  ansible-playbook httpd.yml
+  315  vim httpd.yml
+  316  ls
+  317  ansible-playbook httpd.yml 
+  318  vim h
+  319  vim httpd.yml 
+  320  ansible-playbook httpd.yml 
+  321  vim httpd.yml 
+  322  ansible-playbook httpd.yml 
+  323  vim httpd.yml 
+  324  ansible-playbook httpd.yml 
+  325  vim httpd.yml 
+  326  ansible-playbook httpd.yml 
+  327  vim httpd.yml 
+  328  ansible-playbook httpd.yml 
+  329  vim httpd.yml 
+  330  ansible-playbook httpd.yml 
+  331  vim httpd.yml 
+  332  ansible-playbook httpd.yml 
+  333  vim httpd.yml 
+  334  ansible-playbook httpd.yml 
+  335  vim httpd.yml 
+  336  ansible-playbook httpd.yml 
+  337  vim httpd.yml 
+  338  ansible-playbook httpd.yml 
+  339  ls
+  340  ansible dev -b -m yum -a "name-httpd state=absent"
+  341  ansible dev -b -m yum -a "name=httpd state=absent"
+  342  vim httpd.yml 
+  343  ansible-playbook httpd.yml 
+  344  vim httpd.yml 
+  345  ansible-playbook httpd.yml 
+  346  vim httpd.yml 
+  347  ansible-playbook httpd.yml 
+  348  vim httpd.yml 
+  349  ansible-playbook httpd.yml 
+  350  vim httpd.yml 
+  351  ansible-playbook httpd.yml 
+  352  vim httpd.yml 
+  353  ansible-playbook httpd.yml 
+  354  vim httpd.yml 
+  355  ansible-playbook httpd.yml 
+  356  vim httpd.yml 
+  357  ansible-playbook httpd.yml 
+  358  vim httpd.yml 
+  359  ansible-playbook httpd.yml 
+  360  vim httpd.yml 
+  361  ansible-playbook httpd.yml 
+  362  vim httpd.yml 
+  363  ansible-playbook httpd.yml 
+  364  vim httpd.yml 
+  365  ansible-playbook httpd.yml 
+  366  im httpd.yml p
+  367  im httpd.yml 
+  368  vim httpd.yml 
+  369  ansible-playbook httpd.yml 
+  370  vim httpd.yml 
+  371  ansible-playbook httpd.yml 
+  372  vim httpd.yml 
+  373  ansible-playbook httpd.yml 
+  374  vim httpd.yml 
+  375  ansible-playbook httpd.yml 
+  376  vim httpd.yml 
+  377  vim jj.yml
+  378  ls
+  379  ansible-playbook jj.yml 
+  380  vim 1.yml
+  381  ansible-playbook 1.yml 
+  382  vim 1.yml
+  383  ansible-playbook 1.yml 
+  384  vim 1.yml
+  385  lss
+  386  ls
+  387  vim 1.yml
+  388  ansible-playbook 1.yml 
+  389  vim 1.yml
+  390  ansible-playbook 1.yml 
+  391  vim 1.yml
+  392  ansible-playbook 1.yml 
+  393  vim 1.yml
+  394  ansible-playbook 1.yml 
+  395  vim 1.yml
+  396  ansible-playbook 1.yml 
+  397  vim 1.yml
+  398  ansible-playbook 1.yml 
+  399  ansible-playbook 1.yml 
+  400  vim 1.yml
+  401  ls
+  402  vim 1.yml 
+  403  ansible-playbook httpd.yml 
+  404  ansible-playbook 1.yml 
+  405  vim 1.yml 
+  406  ansible-playbook 1.yml 
+  407  vim 1.yml 
+  408  ansible-playbook 1.yml 
+  409  vim 1.yml 
+  410  ansible-playbook 1.yml 
+  411  vim yy.yml;
+  412  vim yy.yml
+  413  anisble-playbook yy.yml 
+  414  ansible-playbook yy.yml 
+  415  ansible-doc file
+  416  vim file.yml
+  417  ansible-playbook file.yml 
+  418  vim file.yml
+  419  ansible-playbook file.yml 
+  420  vim file.yml
+  421  ansible-playbook file.yml 
+  422  vim file.yml
+  423  ansible-playbook file.yml 
+  424  ls
+  425  ansible-playbook deletehttpd.yml 
+  426  ls
+  427  ansible-playbook deletehttpd.yml -v
+  428  ansible-playbook deletehttpd.yml -vv
+  429  ansible-paybook deletehttpd.yml dry-run
+  430  ansible-paybook deletehttpd.yml -dry-run
+  431  ansible-paybook deletehttpd.yml -check
+  432  ansible-paybook deletehttpd.yml --check
+  433  ansible-paybook deletehttpd.yml --syntax-check
+  434  ansible-paybook deletehttpd.yml--syntax-check
+  435  ansible-lpaybook deletehttpd.yml --syntax-check
+  436  ansiblelplaybook deletehttpd.yml --syntax-check
+  437  ansible-playbook deletehttpd.yml --syntax-check
+  438  ansible-playbook deletehttpd.yml --check
+  439  ansible-playbook deletehttpd.yml --step
+  440  ls
+  441  vim httpd.yml 
+  442  ls
+  443  vim httpd.yml 
+  444  ansible-playbook httpd.yml 
+  445  vim deletehttpd.yml 
+  446  ls
+  447  vim nginx.yml
+  448  ls
+  449* 
+  450  ansible-playbook httpd.yml 
+  451  ansible-playbook httpd.yml ls
+  452  ls
+  453  ansible-playbook ht.yml 
+  454  cat ht.yml 
+  455  vim index.html 
+  456  ansible-playbook ht.yml 
+  457  ansible-playbook --extra-vars named=mayuresh
+  458  ansible-playbook ht.yml --extra-vars named=mayuresh
+  459  vim index.html 
+  460  ansible-playbook ht.yml --extra-vars named=mayuresh sir=choudharkar
+  461  cat vi
+  462  cat index.html 
+  463  ansible-playbook ht.yml --extra-vars named=mayuresh sir:sir=choudharkar
+  464  vim index.html 
+  465  ansible-playbook ht.yml --extra-var named=mayuresh --extra-var sir=choudharkar
+  466  histry >> histroy2
+  467  history >> histroy2

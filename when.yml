@@ -1,0 +1,22 @@
+- hosts: dev
+  become: true
+  tasks: 
+  - name:
+    set_fact:
+     key: mayuresh  
+  - name: install httpd
+    yum:
+      name: httpd
+      state: absent
+    when: ansible_os_family == "Redhat"
+  - name: install httpd
+    apt: 
+      name: apache2
+      state: absent
+    when: ansible_os_family == "Debian"
+  - name: copy
+    copy:
+      src: ab
+      dest: /tmp/ab
+    when: key == "mayuresh"
+    

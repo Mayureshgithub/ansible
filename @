@@ -1,0 +1,24 @@
+- hosts: dev
+  become: true
+  vars:
+    packName: httpd
+    named: taku
+    sir: bhau
+  tasks: 
+   - name: install httpd
+     yum:
+       name: "{{packName}}"
+       state: present
+   - name: cpoy file     
+     template: 
+       src: index.html
+       dest: /var/www/html/index.html
+   - name: stsrt service       
+     service:
+       name: "{{packName}}"
+       state: started
+   - name: print the variable
+     debug:
+       var: named
+       var: sir        
+

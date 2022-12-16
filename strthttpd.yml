@@ -1,0 +1,7 @@
+- hosts: dev
+  become: true
+  tasks:
+    - name: start
+      service: 
+       name: httpd
+       state: started 

@@ -1,0 +1,38 @@
+- hosts: dev
+  become: true
+  vars:                 # define varible 
+    packName: httpd
+    named: mayuresh  
+    sir: bhau
+  tasks: 
+   - name: install httpd
+     tags:                       #// git tag fo calling task
+       install
+     yum: 
+       name: "{{packName}}"
+       state: present
+   - name: this      
+     debug:                 #// print the msgg
+       msg: print the value  
+   - name: cpoy file 
+     tags:
+       copy    
+     template:     #// copy a file with dynamic variable  or copy dynamic varible
+       src: index.html
+       dest: /var/www/html/index.html
+     notify:          # // notfy the changes to handlers
+       - start service
+  handlers:   # // perfom special task when notify is changed
+   - name: start service 
+     tags:
+       start     
+     service:
+       name: "{{packName}}"
+       state: restarted
+   - name: print the variable
+     tags:
+       print
+     debug:
+        var: sir
+        var: named     
+

@@ -1,0 +1,21 @@
+- hosts: dev
+  become: true
+  tasks:
+  - name: htttpd
+    yum:
+     name: httpd
+     state: present
+  - name: copy
+    copy: 
+     src: index.html
+     dest: /tmp/index.html 
+    notify:
+     - start httpd    
+  handlers:
+  - name: start httpd
+    service:
+     name: httpd
+     state: restarted
+
+       
+   

@@ -1,0 +1,13 @@
+- hosts: all
+  tasks:
+    - name: fetch java
+      shell: java -version 2>&1 | grep version | awk '{print $3}' | sed 's/"//g'
+      register: java_version
+    - name: print version
+      debug:
+         var: java_version.stdout 
+    - name: jaa
+      debug:
+        msg: "java exist"
+      when: java_version.stdout != ""
+         

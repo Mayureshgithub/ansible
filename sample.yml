@@ -1,0 +1,13 @@
+- hosts: dev
+  become: no
+  tasks:
+  - name: httpd
+    yum:
+      name: httpd
+      state: absent
+    ignore_errors: true     
+  tasks:        
+  - name: httpd2
+    service:
+      name: httpd
+      state: stopped

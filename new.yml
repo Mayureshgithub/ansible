@@ -1,0 +1,7 @@
+- hosts: dev
+  become: true
+  tasks: 
+  - name: install httpd
+    yum:
+      name: "{{package}}"
+      state: absent
